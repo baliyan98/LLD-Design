@@ -1,4 +1,4 @@
-package observabledesignpattern;
+package observable.design.pattern;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class MediaHouse implements NewsPublisher{
         subscribers.remove(subscriber);
     }
 
-    @Override
+//    @Override
     public void publishNews(String news) {
         subscribers.forEach(subscriber -> subscriber.update(news));
 //        this.latestNews = news;
