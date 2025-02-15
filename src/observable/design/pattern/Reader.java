@@ -1,4 +1,4 @@
-package observabledesignpattern;
+package observable.design.pattern;
 
 public class Reader implements NewsSubscriber {
 

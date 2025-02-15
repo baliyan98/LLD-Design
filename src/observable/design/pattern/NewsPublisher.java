@@ -1,4 +1,4 @@
-package observabledesignpattern;
+package observable.design.pattern;
 
 // Subject Observable
 public interface NewsPublisher {
