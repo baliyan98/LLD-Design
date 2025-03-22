@@ -1,4 +1,4 @@
-package singleton.design.pattern;
+package creational.design.pattern.singleton.design.pattern;
 
 public class Singleton {
     private static Singleton instance;
